@@ -175,8 +175,7 @@ function populateTableEntry(trainee) {
     <div class="table__entry-text">
       <span class="name"><strong>${isJapanese?trainee.name_japanese:trainee.name_romanized}</strong></span>
       <span class="hangul">(${isJapanese?trainee.name_romanized:trainee.name_japanese})</span>
-      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng} •
-      ${trainee.birthyear}</span>
+      <span class="groupandyear">${isJapanese?trainee.group_jpn:trainee.group_eng}</span>
     </div>
   </div>`;
   return tableEntry;
